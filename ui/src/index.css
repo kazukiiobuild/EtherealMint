@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #e8f0ff;
+  background-color: #060915;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at 20% 20%, rgba(64, 120, 255, 0.15), transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(255, 120, 200, 0.12), transparent 26%),
+    #060915;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  color: #f4f7ff;
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 4px 6px;
+  border-radius: 6px;
+  color: #cde0ff;
+}
